@@ -32,21 +32,24 @@ const About = () => (
             <h5>Projects</h5>
             <small>30+ Completed</small>
           </article>
-
         </div>
 
         <p>
           Full-stack web developer with an unparalleled love for clean code,
           great UI designs, and open-source development. Pair programming and
-          remote collaboration are things I enjoy. I am proficient in multiple programming
-          languages, frameworks, and technologies.  As a full-stack developer,  I am eager to
-          collaborate with a talented team of developers, designers, and support specialists
-          to build a knowledge base tool that empowers businesses to deliver better customer
-          experiences and streamline their support operations.   I want to use my creativity
-          to create better software and solve diverse real-world challenges.
+          remote collaboration are things I enjoy. I am proficient in multiple
+          programming languages, frameworks, and technologies. As a full-stack
+          developer, I am eager to collaborate with a talented team of
+          developers, designers, and support specialists to build a knowledge
+          base tool that empowers businesses to deliver better customer
+          experiences and streamline their support operations. I want to use my
+          creativity to create better software and solve diverse real-world
+          challenges.
         </p>
 
-        <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
+        <a href="#contact" className="btn btn-primary">
+          Let&apos;s Talk
+        </a>
       </div>
     </div>
   </section>
