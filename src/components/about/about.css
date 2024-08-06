@@ -9,12 +9,12 @@
   aspect-ratio: 1/1;
   border-radius: 2.3rem;
   background:
-  linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+    linear-gradient(
+      45deg,
+      transparent,
+      var(--color-primary),
+      transparent
+    );
   display: grid;
   place-items: center;
 }
