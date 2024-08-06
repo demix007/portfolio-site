@@ -1,50 +1,67 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './portfolio.css';
-import SpaceTravelers from '../../assets/spacetravelers.png';
-import Bookstore from '../../assets/bookstore.png';
-import AwesomeBooks from '../../assets/awesome_books.png';
 import CountryFinder from '../../assets/country_finder.png';
-import Leaderboard from '../../assets/leaderboard.png';
 import CarRentals from '../../assets/car_rentals.png';
 import CRYPTO from '../../assets/crypto.png';
-import RealEstate from '../../assets/real-estate.png';
-import Education from '../../assets/education.png';
+import Bdcx from '../../assets/bdcx.png';
+import CharizInteriors from '../../assets/chariz-interiors.png';
+import CharizFurnitures from '../../assets/chariz-furnitures.png';
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: Education,
-      title: 'Education Website',
+      image: Bdcx,
+      title: 'BDCX website Application',
       description:
-        'This site showcases an education website with well crafted UI and multiple pages. The project is built with React, HTML, and CSS.',
-      technologies: ['React', 'HTML', 'CSS'],
-      source: 'https://github.com/demix007/education-website',
-      demo: 'https://education-website-pied.vercel.app/',
-    },
-    {
-      id: 1,
-      image: RealEstate,
-      title: 'Real Estate',
-      description:
-        'This application is React application that displays a list of houses for sale and rental. The project is built with React, HTML, and CSS.',
-      technologies: ['React', 'HTML', 'CSS'],
-      source: 'https://github.com/demix007/real-estate',
-      demo: 'https://real-estate-website-hazel-seven.vercel.app/',
-    },
-    {
-      id: 1,
-      image: SpaceTravelers,
-      title: 'Space Travelers Hub',
-      description:
-        'Space Travelers Hub is a cutting-edge React application that empowers users to effortlessly book and cancel rocket reservations. Leveraging API integration.',
-      technologies: ['React', 'Redux', 'CSS'],
-      source: 'https://github.com/demix007/Space-travelers-hub',
-      demo: 'https://space-travelers-hub-eta.vercel.app/',
+        'This React Application provides a platform which allows users ( Bureau De Change ) to onboard their businesses. Users are able to buy and sell foreign currencies. The web app is well crafted with beautiful and consistent designs with full APIs integrations',
+      technologies: [
+        'ReactJS',
+        'Redux',
+        'Tailwind',
+        'AntD',
+        'Axios',
+        'JWT',
+        'Context API',
+      ],
+      demo: 'https://bdcx-frontend.project-demo.app/',
     },
     {
       id: 2,
+      image: CharizInteriors,
+      title: 'CHARIZ INTERIORS',
+      description:
+        'This is a cutting-edge eCommerce platform designed to provide users with a seamless online shopping experience. Built with React, this website showcases a modern, responsive design and intuitive user interface, making it easy for customers to browse and purchase various items for interior design and also book consultations.',
+      technologies: [
+        'React',
+        'Redux',
+        'Tailwind',
+        'MUI',
+        'Axios',
+        'Context API',
+        'AntD',
+      ],
+      demo: 'https://lacharizinteriors.com/',
+    },
+    {
+      id: 3,
+      image: CharizFurnitures,
+      title: 'Chariz Furnitures',
+      description:
+        'This react application serves as an eCommerce platform designed to provide users with a seamless online shopping experience for their furniture items. Built with React, this website showcases a modern, responsive design and intuitive user interface, making it easy for customers to browse and purchase various household and office furnitures.',
+      technologies: [
+        'React',
+        'Redux',
+        'Tailwind',
+        'MUI',
+        'Axios',
+        'Context API',
+      ],
+      demo: 'https://chariz-furniture.web.app/',
+    },
+    {
+      id: 4,
       image: CarRentals,
       title: 'Car Rentals',
       description:
@@ -54,7 +71,7 @@ const Portfolio = () => {
       demo: 'https://cars-rental-front-end.vercel.app/',
     },
     {
-      id: 3,
+      id: 5,
       image: CRYPTO,
       title: 'React Crypto API',
       description:
@@ -64,37 +81,7 @@ const Portfolio = () => {
       demo: 'https://react-crypto-api-sand.vercel.app/',
     },
     {
-      id: 4,
-      image: AwesomeBooks,
-      title: 'Awesome Books',
-      description:
-        'Awesome Books is a professional JavaScript application that enables users to efficiently add and remove books from a list, providing a seamless experience for book management.',
-      technologies: ['JavaScript', 'HTML', 'CSS'],
-      source: 'https://github.com/demix007/Awesome-Books-ES6',
-      demo: 'https://awesome-books-es-6-chi.vercel.app/',
-    },
-    {
-      id: 5,
-      image: Bookstore,
-      title: 'Bookstore',
-      description:
-        'Book Store is a React app for seamless book and author management, seamlessly integrating with an API. Users can efficiently add and remove books with ease, ensuring a smooth experience for book enthusiasts.',
-      technologies: ['React', 'Redux', 'CSS'],
-      source: 'https://github.com/demix007/bookstore-app',
-      demo: 'https://bookstore-cyan.vercel.app/',
-    },
-    {
       id: 6,
-      image: Leaderboard,
-      title: 'Leaderboard App',
-      description:
-        'Here, I set up a JavaScript project for the Leaderboard list app, using webpack and ES6. I developed the app following a wireframe, and consumed the Leaderboard API using JavaScript async and await.',
-      technologies: ['React', 'HTML', 'CSS'],
-      source: 'https://github.com/demix007/Leaderboard',
-      demo: 'https://demixleaderboard.netlify.app/',
-    },
-    {
-      id: 7,
       image: CountryFinder,
       title: 'Global Country Finder',
       description:
@@ -153,4 +140,5 @@ const Portfolio = () => {
     </section>
   );
 };
+
 export default Portfolio;
