@@ -14,15 +14,15 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              <h4>ReactJS</h4>
+              <small className="text-light">Intermediate</small>
             </div>
           </article>
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>CSS</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>Tailwind CSS</h4>
+              <small className="text-light">Experienced</small>
             </div>
           </article>
           <article className="experience__details">
@@ -35,21 +35,49 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>React</h4>
+              <h4>NextJS</h4>
               <small className="text-light">Intermediate</small>
             </div>
           </article>
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Redux</h4>
+              <h4>AngularJS</h4>
               <small className="text-light">Intermediate</small>
             </div>
           </article>
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Bootstrap</h4>
+              <h4>Material-UI</h4>
+              <small className="text-light">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Redux Toolkit</h4>
+              <small className="text-light">Intermediate</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Ant Design</h4>
+              <small className="text-light">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Tanstack Query</h4>
+              <small className="text-light">Beginner</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Git</h4>
               <small className="text-light">Experienced</small>
             </div>
           </article>
@@ -63,6 +91,20 @@ const Experience = () => (
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
               <h4>Node JS</h4>
+              <small className="text-light">Intermediate</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Firebase</h4>
+              <small className="text-light">Intermediate</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Javascript</h4>
               <small className="text-light">Intermediate</small>
             </div>
           </article>
@@ -83,14 +125,14 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Ruby</h4>
+              <h4>RESTful Services</h4>
               <small className="text-light">Intermediate</small>
             </div>
           </article>
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>MySQL</h4>
+              <h4>Git</h4>
               <small className="text-light">Intermediate</small>
             </div>
           </article>
