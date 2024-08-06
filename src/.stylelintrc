@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": [
+    "package-lock.json",
+    "package.json",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.png",
+    "**/*.pdf"
+  ],
+  "rules": {
+    "declaration-colon-newline-after": "always-multi-line",
+    "indentation": 2,
+    "no-eol-whitespace": true
+  }
+}
