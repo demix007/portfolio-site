@@ -22,7 +22,6 @@ const App = () => (
     <Contact />
     <Footer />
     <ToastContainer position="top-right" />
-
   </>
 );
 
