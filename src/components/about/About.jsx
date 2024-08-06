@@ -22,13 +22,11 @@ const About = () => (
             <h5>Experience</h5>
             <small>2+ years Working</small>
           </article>
-
           <article className="about__card">
             <HiUsers className="about__icon" />
             <h5>Technologies</h5>
             <small>10+ Technologies Used</small>
           </article>
-
           <article className="about__card">
             <VscFolderActive className="about__icon" />
             <h5>Projects</h5>
