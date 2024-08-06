@@ -13,7 +13,7 @@ const Portfolio = () => {
     {
       id: 1,
       image: Bdcx,
-      title: 'BDCX website Application',
+      title: 'BDCX Web Application',
       description:
         'This React Application provides a platform which allows users ( Bureau De Change ) to onboard their businesses. Users are able to buy and sell foreign currencies. The web app is well crafted with beautiful and consistent designs with full APIs integrations',
       technologies: [
@@ -30,7 +30,7 @@ const Portfolio = () => {
     {
       id: 2,
       image: CharizInteriors,
-      title: 'CHARIZ INTERIORS',
+      title: 'Chariz Interiors',
       description:
         'This is a cutting-edge eCommerce platform designed to provide users with a seamless online shopping experience. Built with React, this website showcases a modern, responsive design and intuitive user interface, making it easy for customers to browse and purchase various items for interior design and also book consultations.',
       technologies: [
@@ -94,7 +94,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>My Works</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
